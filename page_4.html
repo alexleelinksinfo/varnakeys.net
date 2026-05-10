@@ -1,0 +1,786 @@
+
+    
+    <!DOCTYPE html>
+    <html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Forum - Strona Główna</title>
+        <meta name="robots" content="index, follow">
+        <link rel="icon" href="https://varnakeys.net/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="https://varnakeys.net/css/styles.css">
+        <script>const BASE_URL = "https://varnakeys.net";</script>
+        <script src="https://varnakeys.net/js/search.js" defer></script>
+        <script src="https://varnakeys.net/js/auth.js" defer></script>
+    </head>
+    <body>
+        <header class="site-header">
+            <div class="header-container">
+                <a href="https://varnakeys.net/" class="logo">
+                    <svg class="icon" viewBox="0 0 24 24"><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H6l-2 2V4h16v12z"/></svg> BulgariaPlot
+                </a>
+                
+                <div class="search-wrapper">
+                    <input type="text" id="searchInput" placeholder="Szukaj..." autocomplete="off" class="search-input">
+                    <button class="search-btn"><svg class="icon" viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg></button>
+                    <div id="searchResults" class="search-results"></div>
+                </div>
+
+                <nav class="header-nav">
+                    <a href="/" class="nav-btn"><svg class="icon" viewBox="0 0 24 24"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg> <span class="hidden-mobile">Główna</span></a>
+                    <button onclick="openLogin()" class="nav-btn"><svg class="icon" viewBox="0 0 24 24"><path d="M11 7L9.6 8.4l2.6 2.6H2v2h10.2l-2.6 2.6L11 17l5-5-5-5zm9 12h-8v2h8c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2h-8v2h8v14z"/></svg> <span class="hidden-mobile">Zaloguj</span></button>
+                    <button onclick="openRegister()" class="btn-primary"><svg class="icon" viewBox="0 0 24 24"><path d="M15 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm-9-2V7H4v3H1v2h3v3h2v-3h3v-2H6zm9 4c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Rejestracja</button>
+                </nav>
+            </div>
+            
+            <div class="hero-title-area">
+                <h1>Polskie Forum Dyskusyjne</h1>
+            </div>
+            
+        </header>
+
+        <div class="layout-container">
+            <main class="main-content">
+                
+    <h2 class="page-title">Ostatnie dyskusje</h2>
+    <div class="post-list">
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://varnakeys.net/ava/30593.jpg" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">prawo budowlane</span><span class="tag">kontener mieszkalny</span><span class="tag">nieruchomość</span><span class="tag">działka</span><span class="tag">prawo własności</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://varnakeys.net/posts/pytanie-prawne-czy-kontener-mieszkalny-na-dzialce-to-juz-pelnoprawna-nieruchomosc.html">Pytanie prawne: Czy kontener mieszkalny na działce to już pełnoprawna nieruchomość?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Planuję zamieszkać w kontenerze mieszkalnym, który mam zamontować na działce, którą już posiadam. Chciałbym wiedzieć, jakie są z tego prawne konsekwencje. Czy fakt, że jest trwale związany z gruntem, automatycznie czyni go pełnoprawną nieruchomością, czy też wystarczy tylko pozwolenie na budowę? Bardzo mnie niepokoi kwestia formalna i czy muszę przejść przez cały proces rejestracji, czy wystarczy zgłoszenie. Czy ktoś z Was ma doświadczenia w tej kwestii i może mi doradzić?</p>
+            
+            <div class="post-divider"></div>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Michal_Drago</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 26.01.2025 01:20</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 15 odpowiedzi</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://varnakeys.net/ava/221836 (45).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">nieruchomości</span><span class="tag">inwestycje</span><span class="tag">rynek</span><span class="tag">fundusze</span><span class="tag">własność</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://varnakeys.net/posts/kto-naprawde-dominuje-na-polskim-rynku-nieruchomosci-czy-to-fundusze-czy-deweloperzy.html">Kto naprawdę dominuje na polskim rynku nieruchomości? Czy to fundusze, czy deweloperzy?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Zastanawiam się ostatnio nad strukturą własnościową rynku. Kiedy mówimy o 'największej liczbie nieruchomości', czy mamy na myśli pojedyncze budynki, czy może całe kompleksy? Czy to największe fundusze inwestycyjne, które kupują całe dzielnice, czy może są to duże prywatne grupy deweloperskie? Chciałbym wiedzieć, gdzie można znaleźć wiarygodne dane na ten temat, bo wydaje mi się, że to nie jest proste pytanie, a odpowiedź zależy od definicji 'właściciela' i 'nieruchomości'. Czy ktoś ma jakieś doświadczenia z analizą tego typu danych?</p>
+            
+            <div class="post-divider"></div>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Frodo_PL</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 24.01.2025 21:16</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 13 odpowiedzi</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://varnakeys.net/ava/221836 (8).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">nieruchomości</span><span class="tag">prawo budowlane</span><span class="tag">podatki</span><span class="tag">sprzedaż mieszkania</span><span class="tag">inwestycje</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://varnakeys.net/posts/pytanie-prawne-jak-szybko-moge-sprzedac-mieszkanie-ktore-kupilem-am-czy-sa-jakies-pulapki.html">Pytanie prawne: Jak szybko mogę sprzedać mieszkanie, które kupiłem/am? Czy są jakieś pułapki?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Planuję zakup pierwszego mieszkania inwestycyjnego, ale mam wątpliwości co do momentu sprzedaży. Czy po prostu minie jakiś okres karencji, zanim będę mógł/mogła legalnie odsprzedać nieruchomość? Interesuje mnie głównie aspekt podatkowy - czy muszę się martwić np. podatkiem od zysków kapitałowych, jeśli sprzedaż nastąpi krótko po zakupie? Czy istnieją jakieś okresy, w których prawo mi uniemożliwi transakcję, czy to tylko kwestia podatków? Bardzo proszę o porady od osób, które przeszły przez podobne sytuacje.</p>
+            
+            <div class="post-divider"></div>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Anna_W</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 24.01.2025 14:41</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 12 odpowiedzi</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://varnakeys.net/ava/221836 (28).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">operat szacunkowy</span><span class="tag">wycena nieruchomości</span><span class="tag">rzeczoznawca majątkowy</span><span class="tag">prawo budowlane</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://varnakeys.net/posts/jakie-uprawnienia-sa-niezbedne-do-sporzadzenia-wiarygodnego-operatu-szacunkowego.html">Jakie uprawnienia są niezbędne do sporządzenia wiarygodnego operatu szacunkowego?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Planuję sprzedaż działki i potrzebuję sporządzić profesjonalny operat szacunkowy. Natrafiłem na wiele informacji, ale nie jestem pewien, kto faktycznie ma prawo do takiego dokumentu i czy wystarczy samo posiadanie uprawnień z branży. Czy wystarczy być rzeczoznawcą majątkowym, czy są jakieś dodatkowe wymogi prawne, które muszę znać? Bardzo zależy mi na tym, żeby dokument był w 100% poprawny prawnie, bo ma być podstawą do kredytu. Czy ktoś ma doświadczenie w tej kwestii i może mi doradzić?</p>
+            
+            <div class="post-divider"></div>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Vortex_PL</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 24.01.2025 03:47</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 10 odpowiedzi</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://varnakeys.net/ava/31244.jpg" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">prawo</span><span class="tag">nieruchomości</span><span class="tag">działka</span><span class="tag">grunt</span><span class="tag">prawo budowlane</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://varnakeys.net/posts/prawne-rozroznienie-czy-dzialka-to-po-prostu-synonim-nieruchomosci.html">Prawne rozróżnienie: Czy 'działka' to po prostu synonim 'nieruchomości'?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Zastanawiam się nad terminologią prawną związaną z gruntami. Czy ktoś może mi wyjaśnić, czy pojęcie 'nieruchomość' obejmuje wyłącznie 'działkę' z mojego punktu widzenia? Wydaje mi się, że 'nieruchomość' to bardzo szeroki termin, a 'działka' jest tylko jego częścią. Interesuje mnie, czy w kontekście zakupu czy sprzedaży, używanie tych terminów zamiennie nie spowoduje poważnych nieporozumień prawnych. Byłbym wdzięczny za jakieś wyjaśnienie od kogoś, kto ma w tym trochę doświadczenia.</p>
+            
+            <div class="post-divider"></div>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Stalker_PL</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 23.01.2025 10:56</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 13 odpowiedzi</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://varnakeys.net/ava/221836 (38).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">nieruchomości</span><span class="tag">inwestycje</span><span class="tag">rynek nieruchomości</span><span class="tag">lokalizacje</span><span class="tag">porada</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://varnakeys.net/posts/gdzie-najlepiej-zainwestowac-w-nieruchomosci-szukam-miast-z-dobrym-potencjalem.html">Gdzie najlepiej zainwestować w nieruchomości? Szukam miast z dobrym potencjałem!</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Planuję poważną inwestycję w nieruchomości, ale jestem totalnie zagubiony w wyborze lokalizacji. Chciałbym, żeby pieniądze nie tylko rosły, ale żeby był też stabilny rynek najmu. Czy macie jakieś doświadczenia z konkretnymi miastami, które najlepiej się sprawdzają? Czy lepiej celować w duże ośrodki akademickie, czy może w mniejsze, rozwijające się miasta? Jakie są Wasze sprawdzone wskazówki dotyczące analizy potencjału inwestycyjnego w Polsce?</p>
+            
+            <div class="post-divider"></div>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Agent_Kowalski</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 22.01.2025 23:33</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 20 odpowiedzi</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://varnakeys.net/ava/221836 (21).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">upadłość</span><span class="tag">syndyk</span><span class="tag">sprzedaż nieruchomości</span><span class="tag">prawo</span><span class="tag">wycena majątku</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://varnakeys.net/posts/syndyk-sprzedaje-nieruchomosc-upadlego-na-jakich-zasadach-i-za-jaka-cene.html">Syndyk sprzedaje nieruchomość upadłego - na jakich zasadach i za jaką cenę?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Mam bardzo konkretne pytanie dotyczące procedury likwidacyjnej. Właśnie trafiłem na sprawę, gdzie syndyk ma sprzedać nieruchomość należącą do upadłego dłużnika. Chciałbym wiedzieć, czy istnieje jakiś minimalny próg cenowy, poniżej którego syndyk nie może sprzedać majątku, czy też musi to być cena rynkowa. Czy prawo daje mu swobodę wyceny, czy też musi się trzymać wyceny biegłego? Bardzo proszę o porady prawników lub osób, które miały z tym styczność w praktyce.</p>
+            
+            <div class="post-divider"></div>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Kowalski_99</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 22.01.2025 06:28</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 2 odpowiedzi</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://varnakeys.net/ava/221836 (29).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">majątek wspólny</span><span class="tag">prawo rodzinne</span><span class="tag">nieruchomość</span><span class="tag">ślub</span><span class="tag">majątek osobisty</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://varnakeys.net/posts/nieruchomosc-kupiona-przed-slubem-czy-to-jest-bezpieczny-majatek-osobisty.html">Nieruchomość kupiona przed ślubem - czy to jest bezpieczny majątek osobisty?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Planujemy ślub za rok i właśnie kupiliśmy mieszkanie, które było w całości na moje nazwisko, zanim się żenili. Chciałabym się upewnić, że prawnie jest to traktowane jako mój majątek osobisty, a nie jako coś, co wchodzi do wspólności małżeńskiej. Czy wystarczy akt notarialny, czy trzeba zrobić coś więcej, żeby mieć pewność, że w razie rozwodu nie zostanie to zakwestionowane? Bardzo mnie to martwi i chciałabym usłyszeć opinie prawników i osób, które przechodziły przez podobne sytuacje.</p>
+            
+            <div class="post-divider"></div>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Dev_Polak</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 22.01.2025 03:18</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 18 odpowiedzi</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://varnakeys.net/ava/27106.jpg" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">prawo nieruchomości</span><span class="tag">działka budowlana</span><span class="tag">wycena gruntu</span><span class="tag">planowanie przestrzenne</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://varnakeys.net/posts/nieruchomosc-niezabudowana-jakie-sa-kluczowe-roznice-prawne-i-ekonomiczne.html">Nieruchomość niezabudowana - jakie są kluczowe różnice prawne i ekonomiczne?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Planuję zakup dużej działki, która jest formalnie uznana za nieruchomość niezabudowaną o zdefiniowanej powierzchni. Zastanawiam się, czy jej wartość jest równa działce budowlanej, czy też te aspekty są bardzo odmienne. Czy samo posiadanie zdefiniowanej powierzchni gwarantuje łatwość uzyskania pozwolenia na budowę? Interesuje mnie, jakie czynniki wpływają na wycenę takiego gruntu i czy muszę brać pod uwagę tylko lokalizację, czy też aspekty planowania przestrzennego są decydujące. Czy ktoś z Was miał doświadczenia w transakcjach tego typu i może mi coś doradzić?</p>
+            
+            <div class="post-divider"></div>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Szczesciarz</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 21.01.2025 08:51</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 13 odpowiedzi</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://varnakeys.net/ava/221836 (4).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">komornik</span><span class="tag">współwłasność</span><span class="tag">egzekucja</span><span class="tag">prawo nieruchomości</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://varnakeys.net/posts/egzekucja-z-udzialu-w-nieruchomosci-wspolwlasnosci-czy-to-legalne.html">Egzekucja z udziału w nieruchomości współwłasności - czy to legalne?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Mam bardzo konkretne pytanie prawne, bo trafiła mi się taka sytuacja. Jestem współwłaścicielem mieszkania z innymi osobami, a komornik ma egzekwować dług z udziału w tej nieruchomości. Chciałbym wiedzieć, czy komornik ma prawo wyprzedać tylko mój udział, czy musi uzyskać zgodę wszystkich współwłaścicieli. Czy taka egzekucja nie narusza moich praw jako współwłaściciela i czy istnieje procedura, która by to regulowała? Byłbym bardzo wdzięczny za fachową opinię prawnika lub kogoś, kto się w tym zna.</p>
+            
+            <div class="post-divider"></div>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Trinity_PL</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 21.01.2025 02:22</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 13 odpowiedzi</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://varnakeys.net/ava/221836 (14).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">prawo nieruchomości</span><span class="tag">własność</span><span class="tag">akt notarialny</span><span class="tag">prawo cywilne</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://varnakeys.net/posts/kupuje-mieszkanie-kiedy-formalnie-przechodze-prawem-wlasnosci-potrzebuje-porady-prawnej.html">Kupuję mieszkanie - kiedy formalnie przechodzę prawem własności? Potrzebuję porady prawnej!</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Planuję zakup mieszkania i mam ogromne wątpliwości co do momentu przejęcia pełnej własności. Sprzedający i ja podpisaliśmy umowę przedwstępną, a potem umowę o przeniesienie własności. Czy wystarczy podpisanie aktu notarialnego, czy musi nastąpić wpis do księgi wieczystej? Bardzo mnie nurtuje, czy to podpisanie aktu jest wystarczające, czy też muszę czekać na jakieś inne formalności prawne, żeby móc legalnie używać nieruchomości i być jej pełnoprawnym właścicielem. Czy ktoś z Was ma doświadczenie w tej kwestii i może mi wyjaśnić ten moment prawny? Bardzo by mi to ułatwiło spokój ducha.</p>
+            
+            <div class="post-divider"></div>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> DuchRider</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 21.01.2025 01:13</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 16 odpowiedzi</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://varnakeys.net/ava/221836 (22).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">wycena nieruchomości</span><span class="tag">biegły sądowy</span><span class="tag">remont</span><span class="tag">prawo budowlane</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://varnakeys.net/posts/potrzebuje-pomocy-jaki-biegly-sadowy-zajmuje-sie-wycena-nakladow-na-remont-nieruchomosci.html">Potrzebuję pomocy: Jaki biegły sądowy zajmuje się wyceną nakładów na remont nieruchomości?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Witam wszystkich. Stoję przed problemem wyceny nakładów, które poniosłem na remont mieszkania. Chciałbym wiedzieć, czy wystarczy biegły z zakresu budownictwa, czy potrzebuję kogoś bardziej specjalistycznego, kto zajmuje się konkretnie wyceną prac i materiałów w kontekście sporów sądowych. Czy macie jakieś doświadczenia z tego tematu? Bardzo zależy mi na uzyskaniu wiarygodnej opinii, bo sprawa ma trafić na drogę sądową. Jakie są Wasze rekomendacje?</p>
+            
+            <div class="post-divider"></div>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> KodowyDuch</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 20.01.2025 21:53</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 15 odpowiedzi</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://varnakeys.net/ava/221836 (45).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">prawo nieruchomości</span><span class="tag">Skarb Państwa</span><span class="tag">własność</span><span class="tag">przejęcie gruntu</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://varnakeys.net/posts/kwestia-przejecia-nieruchomosci-kiedy-prawo-wlasnosci-automatycznie-trafia-do-skarbu-panstwa.html">Kwestia przejęcia nieruchomości: Kiedy prawo własności automatycznie trafia do Skarbu Państwa?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Mam bardzo skomplikowaną sytuację z gruntem, który był kiedyś częścią większej działki. Chcemy wiedzieć, jakie są precyzyjne warunki, aby prawo własności nieruchomości przeszło z urzędu na Skarb Państwa. Czy wystarczy, że nieruchomość nie jest użytkowana przez określony czas, czy wymagane jest formalne orzeczenie sądu? Interesuje mnie, czy istnieje jakiś standardowy proces administracyjny, który musimy prześledzić, aby uniknąć problemów z tytułem prawnym. Czy ktoś z Was ma doświadczenie w takich sprawach i może mi doradzić, jakie dokumenty są kluczowe?</p>
+            
+            <div class="post-divider"></div>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Neo_Matrix</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 20.01.2025 13:01</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 19 odpowiedzi</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://varnakeys.net/ava/221836 (29).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">nieruchomości</span><span class="tag">dom jednorodzinny</span><span class="tag">kategoria nieruchomości</span><span class="tag">prawo budowlane</span><span class="tag">księga wieczysta</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://varnakeys.net/posts/pytanie-o-klasyfikacje-prawna-czy-dom-jednorodzinny-to-zawsze-nieruchomosc-mieszkalna.html">Pytanie o klasyfikację prawną: Czy dom jednorodzinny to zawsze 'nieruchomość mieszkalna'?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Planuję kupić dom jednorodzinny i chciałbym się upewnić co do wszystkich formalności. Znam ogólną definicję, ale nurtuje mnie, do jakiej konkretnej kategorii nieruchomości on jest zaliczany w kontekście księgi wieczystej i podatków. Czy to tylko 'nieruchomość mieszkalna', czy są jakieś podkategorie, które muszę znać? Chciałbym wiedzieć, czy ta kategoria wpływa na kredytowanie czy na możliwość późniejszego rozbudowy. Czy ktoś z doświadczeniem w tej dziedzinie może mi pomóc w rozjaśnieniu tej kwestii?</p>
+            
+            <div class="post-divider"></div>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Szczesciarz</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 20.01.2025 01:56</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 15 odpowiedzi</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://varnakeys.net/ava/37231.jpg" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">prawo budowlane</span><span class="tag">nieruchomości</span><span class="tag">garaż</span><span class="tag">księga wieczysta</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://varnakeys.net/posts/prawne-aspekty-wolnostojacego-garazu-czy-to-osobna-nieruchomosc.html">Prawne aspekty wolnostojącego garażu - czy to osobna nieruchomość?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Planuję wybudować wolnostojący garaż na działce, która jest częścią mojego ogrodu. Zanim jednak zacznę zlecenia, chciałbym się upewnić co do kwestii prawnej. Czy taki obiekt, jeśli jest oddzielny od głównego budynku, jest traktowany jako odrębna, niezależna nieruchomość? Interesuje mnie to zwłaszcza w kontekście przyszłej sprzedaży części działki. Czy to ma wpływ na księgę wieczystą i czy muszę się martwić o podział własności? Będę wdzięczny za wszelkie porady prawników i osób, które przechodziły przez podobną sytuację.</p>
+            
+            <div class="post-divider"></div>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Yen_PL</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 20.01.2025 01:35</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 19 odpowiedzi</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://varnakeys.net/ava/221836 (14).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">nieruchomości</span><span class="tag">prawo budowlane</span><span class="tag">gruntowa</span><span class="tag">księga wieczysta</span><span class="tag">zakup działki</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://varnakeys.net/posts/pomocy-jak-dokladnie-charakteryzuje-sie-prawnie-nieruchomosc-gruntowa-roznice-z-innymi-aktywami.html">Pomocy! Jak dokładnie charakteryzuje się prawnie nieruchomość gruntowa - różnice z innymi aktywami?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Planuję kupić działkę i trafiłem na mnóstwo terminów prawniczych. Chciałbym zrozumieć, czym dokładnie jest nieruchomość gruntowa i jakie są jej unikalne cechy prawne. Czy wystarczy wiedzieć, że to ziemia, czy są jakieś kluczowe elementy, o których muszę wiedzieć przed zakupem? Interesuje mnie zwłaszcza kwestia księgi wieczystej i jakie ograniczenia mogą być na niej zapisane. Czy ktoś z Was ma doświadczenie w transakcjach gruntowych i mógłby mi rzucić jakieś wskazówki?</p>
+            
+            <div class="post-divider"></div>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Kasia_Neo</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 19.01.2025 21:10</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 18 odpowiedzi</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://varnakeys.net/ava/37477.jpg" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">Zbrodnia i kara</span><span class="tag">Dunia</span><span class="tag">Dostojewski</span><span class="tag">Analiza literacka</span><span class="tag">Wątki postaci</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://varnakeys.net/posts/pytanie-o-watek-duni-z-kim-dokladnie-byla-zareczowana-w-zbrodni-i-karze.html">Pytanie o wątek Duni: Z kim dokładnie była zaręczowana w 'Zbrodni i karze'?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Czy ktoś mógłby mi przypomnieć, z kim dokładnie była zaręczowana Dunia w powieści Dostojewskiego? Czy pamiętam dobrze, czy chodziło o kogoś z arystokracji, czy może o kogoś bardziej związanego z środowiskiem studenckim? Mam wrażenie, że ten wątek jest dość mglisty i chciałbym się upewnić co do szczegółów fabularnych. Bardzo mnie ciekawi, jak ten brak jasności wpływa na jej późniejsze decyzje życiowe. Czy ktoś ma jakieś źródła lub interpretacje na ten temat?</p>
+            
+            <div class="post-divider"></div>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Joker_PL</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 19.01.2025 16:40</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 18 odpowiedzi</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://varnakeys.net/ava/221836 (8).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">mieszkanie</span><span class="tag">zakup</span><span class="tag">lokalizacja</span><span class="tag">inwestycja</span><span class="tag">porada</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://varnakeys.net/posts/zakup-pierwszego-mieszkania-na-co-najbardziej-patrzec-zeby-nie-popelnic-bledu.html">Zakup pierwszego mieszkania - na co najbardziej patrzeć, żeby nie popełnić błędu?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Planuję zakup pierwszego mieszkania w dużym mieście i czuję się kompletnie zagubiony w zalewie informacji. Czy naprawdę najważniejsza jest lokalizacja, czy może bardziej chodzi o stan techniczny i układ pomieszczeń? Chciałbym wiedzieć, na jakie kryteria powinienem położyć największy nacisk, zanim podpiszę umowę. Czy warto rozważyć zakup z potencjałem do remontu, czy lepiej postawić na gotowy, choć może nieco droższy, standard? Każda rada od osób, które przeszły przez ten proces, będzie dla mnie nieoceniona.</p>
+            
+            <div class="post-divider"></div>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> DuchRider</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 19.01.2025 12:00</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 19 odpowiedzi</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://varnakeys.net/ava/3975.jpg" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">VAT</span><span class="tag">nieruchomości</span><span class="tag">podatki</span><span class="tag">sprzedaż</span><span class="tag">prawo budowlane</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://varnakeys.net/posts/vat-przy-sprzedazy-nieruchomosci-jakie-sa-warunki-pelnego-zwolnienia.html">VAT przy sprzedaży nieruchomości - jakie są warunki pełnego zwolnienia?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Planuję sprzedać mieszkanie, które kupiłem jako osoba prywatna, ale mam wątpliwości co do aspektów podatkowych. Czy fakt, że nie jestem przedsiębiorcą, automatycznie oznacza, że cała transakcja jest zwolniona z VAT? Czy to zależy od tego, jak długo jestem właścicielem, czy może od sposobu przeznaczenia lokalu? Bardzo proszę o wyjaśnienie, na jakich konkretnych przepisach opiera się to zwolnienie, bo nie chcę popełnić żadnego błędu przy umowach.
+</p>
+            
+            <div class="post-divider"></div>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> MrocznyAniol</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 19.01.2025 10:42</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 18 odpowiedzi</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://varnakeys.net/ava/221836 (36).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">prawo cywilne</span><span class="tag">nieruchomości</span><span class="tag">Kodeks cywilny</span><span class="tag">własność</span><span class="tag">transakcja prawna</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://varnakeys.net/posts/definicja-nieruchomosci-w-kc-czy-wystarczy-nam-tylko-ogolne-pojecie.html">Definicja nieruchomości w KC - czy wystarczy nam tylko ogólne pojęcie?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Planuję zakup działki i chciałbym się upewnić co do prawnych aspektów. Czy definicja nieruchomości zawarta w Kodeksie cywilnym jest wystarczająca, aby uniknąć problemów przy przenoszeniu własności? Mam wrażenie, że to pojęcie jest bardzo szerokie i może prowadzić do niejasności w praktyce. Czy ktoś z Was, kto zajmuje się prawem nieruchomości, mógłby mi wyjaśnić, jakie są kluczowe elementy, które muszę znać, poza samą definicją prawną? Bardzo zależy mi na precyzji, bo to duża transakcja.</p>
+            
+            <div class="post-divider"></div>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Solar_PL</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 19.01.2025 09:59</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 12 odpowiedzi</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://varnakeys.net/ava/28566.jpg" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">nieruchomości</span><span class="tag">inwestycje</span><span class="tag">budownictwo</span><span class="tag">rynekdomów</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://varnakeys.net/posts/dlaczego-deweloperzy-tak-agresywnie-sprzedaja-nowe-domy-czy-to-sygnal-dla-kupujacych.html">Dlaczego deweloperzy tak agresywnie sprzedają nowe domy? Czy to sygnał dla kupujących?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Ostatnio zauważyłem, że wiele firm budowlanych ma bardzo intensywne kampanie sprzedażowe, niemal na siłę. Zastanawiam się, co stoi za taką presją. Czy faktycznie rynek jest tak nasycony, że muszą wyprzedać zapasy, czy może chodzi o jakieś inne mechanizmy finansowe? Chciałbym poznać Wasze opinie ekspertów i doświadczonych kupujących. Czy to jest dobry moment na zakup, czy może jest to pułapka, na którą trzeba uważać?</p>
+            
+            <div class="post-divider"></div>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Doc_Brown_PL</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 19.01.2025 03:13</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 16 odpowiedzi</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://varnakeys.net/ava/37351.jpg" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">nieruchomości</span><span class="tag">zakup mieszkania</span><span class="tag">porady</span><span class="tag">lokalizacja</span><span class="tag">kredyt hipoteczny</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://varnakeys.net/posts/kupowanie-pierwszego-mieszkania-co-jest-waszym-absolutnym-priorytetem.html">Kupowanie pierwszego mieszkania - co jest Waszym absolutnym priorytetem?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Planuję zakup pierwszego mieszkania i czuję się nieco zagubiony w tym procesie. W internecie czytałem, że różne rzeczy są ważne dla kupujących, ale nie wiem, co jest naprawdę kluczowe. Czy bardziej liczy się lokalizacja i bliskość komunikacji, czy może stan techniczny budynku i układ pomieszczeń? Czy też najważniejszy jest dla Was aspekt finansowy, np. możliwość kredytu? Chciałbym usłyszeć Wasze doświadczenia, co według Was jest najważniejszym kryterium, na które powinienem zwrócić uwagę, zanim podpiszę jakąkolwiek umowę.</p>
+            
+            <div class="post-divider"></div>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> SuperNowa</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 18.01.2025 10:28</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 15 odpowiedzi</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://varnakeys.net/ava/221836 (19).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">ubezpieczenie</span><span class="tag">nieruchomość</span><span class="tag">polisa</span><span class="tag">poradnictwo</span><span class="tag">ubezpieczyciel</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://varnakeys.net/posts/pomocy-jak-wybrac-najlepsze-ubezpieczenie-dla-mieszkania-ktore-towarzystwo-polecacie.html">Pomocy! Jak wybrać najlepsze ubezpieczenie dla mieszkania - które towarzystwo polecacie?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Kupiłem niedawno mieszkanie i teraz mam gigantyczny problem z polisą. Nie wiem, czy lepiej iść w duże, ogólnopolskie towarzystwo, czy może mały, wyspecjalizowany lokalnie gracz. Czy macie jakieś doświadczenia z konkretnymi ubezpieczycielami? Interesuje mnie nie tylko cena, ale przede wszystkim jakość obsługi posprzedażowej i szybkość wypłaty odszkodowania w przypadku szkody. Czy ktoś wie, który rynek oferuje najlepszy stosunek jakości do ceny w tej dziedzinie?</p>
+            
+            <div class="post-divider"></div>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Neo_Matrix</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 17.01.2025 12:26</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 19 odpowiedzi</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://varnakeys.net/ava/221836 (31).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">Hiszpania</span><span class="tag">Zakup nieruchomości</span><span class="tag">Prawo obcokrajowców</span><span class="tag">Transakcja prawna</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://varnakeys.net/posts/zakup-nieruchomosci-w-hiszpanii-jakie-sa-najwieksze-pulapki-prawne-dla-polakow.html">Zakup nieruchomości w Hiszpanii - Jakie są największe pułapki prawne dla Polaków?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Planujemy zakup mieszkania w Andaluzji i jestem bardzo podekscytowany, ale jednocześnie trochę przerażony biurokracją. Chciałbym się dowiedzieć, jakie są absolutne minimum formalności, żeby transakcja była w 100% bezpieczna. Czy wystarczy mieć dobrego prawnika, czy trzeba też sprawdzić gruntownie dokumentację własności? Czy polecacie jakieś konkretne firmy, które specjalizują się w transakcjach dla obcokrajowców? Każda rada będzie na wagę złota, bo nie chcę popełnić żadnego błędu kosztującego mnie fortunę.</p>
+            
+            <div class="post-divider"></div>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> CzarnaMamba</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 17.01.2025 10:38</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 17 odpowiedzi</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://varnakeys.net/ava/37204.jpg" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">nieruchomości</span><span class="tag">kredyt hipoteczny</span><span class="tag">finanse osobiste</span><span class="tag">rynek mieszkaniowy</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://varnakeys.net/posts/jak-w-ogole-dzis-kupic-mieszkanie-czy-tylko-bogaci-sobie-na-tym-moga.html">Jak w ogóle dziś kupić mieszkanie? Czy tylko bogaci sobie na tym mogą?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Od kilku miesięcy obserwuję ten sam problem: ceny rosną, a moje oszczędności wydają się maleć w zastraszającym tempie. Chciałbym zrozumieć, czy faktycznie zakup nieruchomości stał się luksusem zarezerwowanym dla najbogatszych. Czy patrząc na obecne stopy procentowe i wymagania banków, istnieje jeszcze realna ścieżka dla osób o stabilnym, ale przeciętnym dochodzie? Jakie są Wasze doświadczenia i jakie rozwiązania poza tradycyjnym kredytem hipotecznym polecacie?</p>
+            
+            <div class="post-divider"></div>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Solar_PL</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 17.01.2025 09:18</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 11 odpowiedzi</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://varnakeys.net/ava/221836 (28).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">kredyt hipoteczny</span><span class="tag">zabezpieczenie kredytu</span><span class="tag">nieruchomości</span><span class="tag">prawo bankowe</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://varnakeys.net/posts/kredyt-na-mieszkanie-czy-automatycznie-stawiam-nieruchomosc-jako-zabezpieczenie.html">Kredyt na mieszkanie: czy automatycznie stawiam nieruchomość jako zabezpieczenie?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Planuję kupić mieszkanie na kredyt i mam poważne wątpliwości prawne. Czy wystarczy, że podpiszę umowę kredytową, czy kupiona przeze mnie nieruchomość automatycznie staje się zabezpieczeniem dla banku? Czy zawsze jest to hipoteka, czy mogę negocjować inne formy zabezpieczenia? Chciałbym wiedzieć, jakie są moje prawa i obowiązki na tym etapie. Czy ktoś z Was miał podobne doświadczenia z bankami i prawnikami?</p>
+            
+            <div class="post-divider"></div>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Michal_Drago</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 17.01.2025 04:22</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 15 odpowiedzi</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://varnakeys.net/ava/221836 (36).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">zakup domu</span><span class="tag">nieruchomości</span><span class="tag">dom jednorodzinny</span><span class="tag">rynek nieruchomości</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://varnakeys.net/posts/pomocy-jakie-domy-naprawde-sa-najbardziej-pozadane-na-obecnym-rynku-jednorodzinny-vs-blizniak.html">Pomocy! Jakie domy naprawdę są najbardziej pożądane na obecnym rynku? (Jednorodzinny vs. bliźniak)</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Planuję zakup pierwszego domu i czuję się kompletnie zagubiony w tym całym rynku. Czy naprawdę dom jednorodzinny na działce zawsze będzie najlepszym wyborem, czy może bliźniaki z nowoczesnym układem są obecnie bardziej 'na czasie' i lepiej dopasowane do potrzeb rodzin? Zastanawiam się też nad kwestią lokalizacji - czy lepiej celować w spokojną gminę, czy bliżej dużego miasta, ale z dobrym dojazdem. Chciałbym poznać Wasze doświadczenia, co Was najbardziej przekonało przy zakupie i jakie typy domów według Was najlepiej spełniają oczekiwania współczesnych Polaków.</p>
+            
+            <div class="post-divider"></div>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Yen_PL</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 17.01.2025 03:10</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 15 odpowiedzi</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://varnakeys.net/ava/20664.jpg" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">wycena nieruchomości</span><span class="tag">sprzedaż mieszkania</span><span class="tag">rzeczoznawca majątkowy</span><span class="tag">rynek nieruchomości</span><span class="tag">kredyt hipoteczny</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://varnakeys.net/posts/pomocy-jak-rzetelnie-wycenic-mieszkanie-zeby-nie-stracic-na-transakcji.html">Pomocy! Jak rzetelnie wycenić mieszkanie, żeby nie stracić na transakcji?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Planuję sprzedać moje mieszkanie i jestem kompletnie zagubiony w kwestii jego rynkowej wartości. Czy wystarczy popatrzeć na ogłoszenia z okolicy, czy potrzebuję profesjonalnej wyceny? Zastanawiam się, czy wycena bankowa jest zawsze wiarygodna, czy też lepiej skorzystać z usług rzeczoznawcy majątkowego. Chciałbym wiedzieć, jakie są najrzetelniejsze metody określenia ceny, która jednocześnie przyciągnie kupującego i nie będzie zawyżona. Czy ktoś miał podobne doświadczenia i może mi doradzić?</p>
+            
+            <div class="post-divider"></div>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Terminator_PL</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 17.01.2025 02:09</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 16 odpowiedzi</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://varnakeys.net/ava/221836 (9).png" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">inwestycje</span><span class="tag">nieruchomości</span><span class="tag">rynek budowlany</span><span class="tag">finanse</span><span class="tag">porada</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://varnakeys.net/posts/gdzie-obecnie-najlepiej-postawic-kapital-porownanie-inwestycji-w-mieszkania-vs-magazyny.html">Gdzie obecnie najlepiej postawić kapitał? Porównanie inwestycji w mieszkania vs. magazyny</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Planuję dużą inwestycję i jestem kompletnie zagubiony w obecnej sytuacji na rynku. Z jednej strony widzę potencjał w budownictwie deweloperskim, z drugiej strony coraz więcej mówi się o magazynach i logistyce. Czy w obecnych realiach, biorąc pod uwagę wysokie stopy procentowe i inflację, bardziej opłacalny jest wzrost wartości nieruchomości mieszkalnych, czy może lepiej postawić na segment komercyjny? Jakie są Wasze doświadczenia z ostatnich lat i czy macie jakieś konkretne rekomendacje dla początkującego inwestora?</p>
+            
+            <div class="post-divider"></div>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Ciri_Z</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 16.01.2025 21:16</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 19 odpowiedzi</span>
+            </div>
+        </div>
+        
+        <div class="post-item">
+            <div class="post-item-top">
+                <img src="https://varnakeys.net/ava/6063.jpg" alt="Avatar" class="post-avatar">
+                <div>
+                    <div class="tags">
+                        <span class="tag">kredyt hipoteczny</span><span class="tag">finanse osobiste</span><span class="tag">nieruchomości</span><span class="tag">zdolność kredytowa</span>
+                    </div>
+                    <h3 class="post-title"><a href="https://varnakeys.net/posts/czy-w-obecnych-warunkach-w-ogole-da-sie-wziac-kredyt-hipoteczny-kto-ma-szanse.html">Czy w obecnych warunkach w ogóle da się wziąć kredyt hipoteczny? Kto ma szansę?</a></h3>
+                </div>
+            </div>
+            
+            <p class="post-desc">Bardzo mnie nurtuje, co się dzieje z rynkiem kredytów. Patrząc na ostatnie oferty i wymagania banków, mam wrażenie, że zdolność kredytowa jest na niższym poziomie niż kiedykolwiek. Czy faktycznie jest tak, że tylko osoby z bardzo wysokimi dochodami albo z dużym wkładem własnym mają szansę? Chciałbym poznać Wasze doświadczenia i opinie - czy coś się zmieniło w ostatnich miesiącach, czy to tylko moje odczucia?</p>
+            
+            <div class="post-divider"></div>
+            
+            <div class="post-meta">
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> CyberKrolowa</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg> 16.01.2025 14:58</span>
+                <span class="meta-item"><svg class="icon" viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg> 15 odpowiedzi</span>
+            </div>
+        </div>
+        
+    </div>
+
+    
+    <div class="pagination">
+        
+        
+        <a href="https://varnakeys.net/" class="page-link ">1</a>
+        
+        
+        <a href="https://varnakeys.net/page_2.html" class="page-link ">2</a>
+        
+        
+        <a href="https://varnakeys.net/page_3.html" class="page-link ">3</a>
+        
+        
+        <a href="https://varnakeys.net/page_4.html" class="page-link active">4</a>
+        
+        
+        <a href="https://varnakeys.net/page_5.html" class="page-link ">5</a>
+        
+        
+        <a href="https://varnakeys.net/page_6.html" class="page-link ">6</a>
+        
+        
+        <a href="https://varnakeys.net/page_7.html" class="page-link ">7</a>
+        
+    </div>
+    
+    
+            </main>
+            
+            <aside class="sidebar">
+                <div class="card card-dark">
+                    <h3 class="widget-title">Statystyki forum</h3>
+                    <ul class="stat-list">
+                        <li><span>Tematy:</span> <span>185</span></li>
+                        <li><span>Wiadomości:</span> <span>2656</span></li>
+                        <li><span>Uczestnicy:</span> <span>291</span></li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3 class="widget-title">Losowe tematy</h3>
+                    <ul class="random-links">
+                        
+                        <li><a href="https://varnakeys.net/posts/kupno-mieszkania-teraz-czy-poczekac-jakie-sa-wasze-doswiadczenia-w-obecnych-warunkach.html"><svg class="icon" viewBox="0 0 24 24"><path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/></svg> Kupno mieszkania teraz czy poczekać? Jakie są Wasze doświadczenia w obecnych warunkach?</a></li>
+                        
+                        <li><a href="https://varnakeys.net/posts/dlaczego-ceny-mieszkan-rosna-w-takim-tempie-szukam-analizy-a-nie-tylko-bo-popyt-przewyzsza-podaz.html"><svg class="icon" viewBox="0 0 24 24"><path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/></svg> Dlaczego ceny mieszkań rosną w takim tempie? Szukam analizy, a nie tylko 'bo popyt przewyższa podaż'</a></li>
+                        
+                        <li><a href="https://varnakeys.net/posts/podatek-od-nieruchomosci-co-decyduje-o-ostatecznej-stawce-potrzebuje-wyjasnienia.html"><svg class="icon" viewBox="0 0 24 24"><path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/></svg> Podatek od nieruchomości - co decyduje o ostatecznej stawce? Potrzebuję wyjaśnienia!</a></li>
+                        
+                        <li><a href="https://varnakeys.net/posts/planuje-inwestycje-w-tajlandii-jak-realistycznie-ocenic-koszty-zakupu-apartamentu.html"><svg class="icon" viewBox="0 0 24 24"><path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/></svg> Planuję inwestycję w Tajlandii - Jak realistycznie ocenić koszty zakupu apartamentu?</a></li>
+                        
+                        <li><a href="https://varnakeys.net/posts/jak-bezpiecznie-sprawdzic-kto-jest-faktycznym-wlascicielem-nieruchomosci-przed-zakupem.html"><svg class="icon" viewBox="0 0 24 24"><path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/></svg> Jak bezpiecznie sprawdzić, kto jest faktycznym właścicielem nieruchomości przed zakupem?</a></li>
+                        
+                    </ul>
+                </div>
+            </aside>
+        </div>
+
+        <footer class="site-footer">
+            <div class="footer-container">
+                <div>
+                    <h4 class="footer-title"><svg class="icon" viewBox="0 0 24 24"><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H6l-2 2V4h16v12z"/></svg> BulgariaPlot.net</h4>
+                    <p class="footer-text">Naszą misją jest zapewnienie najlepszej przestrzeni do wymiany doświadczeń i wiedzy.<br><br>&copy; 2026 Wszelkie prawa zastrzeżone.</p>
+                </div>
+                <div>
+                    <h4 class="footer-title">Zasady Forum</h4>
+                    <p class="footer-text">Spam, wyzwiska, nieodpowiednie treści oraz trolle są surowo zabronione. Bądźmy dla siebie kulturalni.</p>
+                </div>
+                <div>
+                    <h4 class="footer-title">Polityka</h4>
+                    <p class="footer-text">Wierzymy w przejrzystość. Używamy plików cookie w celu ulepszenia działania strony.<br><a href="#">Polityka prywatności</a></p>
+                </div>
+            </div>
+        </footer>
+    </body>
+    </html>
+    
